@@ -1,0 +1,211 @@
+==> /var/log/auth.log <==
+Nov 21 08:27:58 ubuntu groupadd[9096]: group added to /etc/gshadow: name=lightdm
+Nov 21 08:27:58 ubuntu groupadd[9096]: new group: name=lightdm, GID=122
+Nov 21 08:27:59 ubuntu useradd[9102]: new user: name=lightdm, UID=114, GID=122, home=/var/lib/lightdm, shell=/bin/false
+Nov 21 08:27:59 ubuntu usermod[9107]: change user 'lightdm' password
+Nov 21 08:27:59 ubuntu chage[9112]: changed password expiry for lightdm
+Nov 21 08:27:59 ubuntu groupadd[9125]: group added to /etc/group: name=nopasswdlogin, GID=123
+Nov 21 08:27:59 ubuntu groupadd[9125]: group added to /etc/gshadow: name=nopasswdlogin
+Nov 21 08:27:59 ubuntu groupadd[9125]: new group: name=nopasswdlogin, GID=123
+Nov 21 08:28:05 ubuntu groupadd[9198]: group added to /etc/group: name=avahi, GID=124
+Nov 21 08:28:05 ubuntu groupadd[9198]: group added to /etc/gshadow: name=avahi
+Nov 21 08:28:05 ubuntu groupadd[9198]: new group: name=avahi, GID=124
+Nov 21 08:28:05 ubuntu useradd[9202]: new user: name=avahi, UID=115, GID=124, home=/var/run/avahi-daemon, shell=/bin/false
+Nov 21 08:28:05 ubuntu usermod[9207]: change user 'avahi' password
+Nov 21 08:28:05 ubuntu chage[9212]: changed password expiry for avahi
+Nov 21 08:28:05 ubuntu chfn[9215]: changed user 'avahi' information
+Nov 21 08:28:07 ubuntu groupadd[9336]: group added to /etc/group: name=bluetooth, GID=125
+Nov 21 08:28:07 ubuntu groupadd[9336]: group added to /etc/gshadow: name=bluetooth
+Nov 21 08:28:07 ubuntu groupadd[9336]: new group: name=bluetooth, GID=125
+Nov 21 08:28:10 ubuntu useradd[9479]: new user: name=dnsmasq, UID=116, GID=65534, home=/var/lib/misc, shell=/bin/false
+Nov 21 08:28:10 ubuntu usermod[9484]: change user 'dnsmasq' password
+Nov 21 08:28:10 ubuntu chage[9489]: changed password expiry for dnsmasq
+Nov 21 08:28:10 ubuntu chfn[9492]: changed user 'dnsmasq' information
+Nov 21 08:29:01 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 21 08:29:06 ubuntu sudo:     eero : TTY=tty5 ; PWD=/ ; USER=root ; COMMAND=/usr/sbin/service lightdm start
+Nov 21 08:29:06 ubuntu sudo: pam_unix(sudo:session): session opened for user root by eero(uid=0)
+Nov 21 08:29:06 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 21 08:29:07 ubuntu lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov 21 08:29:07 ubuntu lightdm: PAM adding faulty module: pam_kwallet.so
+Nov 21 08:29:07 ubuntu lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Nov 21 08:29:07 ubuntu lightdm: PAM adding faulty module: pam_kwallet5.so
+Nov 21 08:29:07 ubuntu lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Nov 21 08:29:07 ubuntu systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Nov 21 08:29:07 ubuntu systemd-logind[644]: New session c1 of user lightdm.
+Nov 21 08:29:10 ubuntu lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov 21 08:29:10 ubuntu lightdm: PAM adding faulty module: pam_kwallet.so
+Nov 21 08:29:10 ubuntu lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Nov 21 08:29:10 ubuntu lightdm: PAM adding faulty module: pam_kwallet5.so
+Nov 21 08:29:10 ubuntu lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "eero"
+Nov 21 08:29:21 ubuntu lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov 21 08:29:21 ubuntu lightdm: PAM adding faulty module: pam_kwallet.so
+Nov 21 08:29:21 ubuntu lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Nov 21 08:29:21 ubuntu lightdm: PAM adding faulty module: pam_kwallet5.so
+Nov 21 08:29:21 ubuntu lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "eero"
+Nov 21 08:29:29 ubuntu lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov 21 08:29:29 ubuntu lightdm: PAM adding faulty module: pam_kwallet.so
+Nov 21 08:29:29 ubuntu lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Nov 21 08:29:29 ubuntu lightdm: PAM adding faulty module: pam_kwallet5.so
+Nov 21 08:29:29 ubuntu lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "eero"
+Nov 21 08:29:35 ubuntu dbus[629]: [system] Failed to activate service 'org.bluez': timed out
+Nov 21 08:29:58 ubuntu lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov 21 08:29:58 ubuntu lightdm: PAM adding faulty module: pam_kwallet.so
+Nov 21 08:29:58 ubuntu lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Nov 21 08:29:58 ubuntu lightdm: PAM adding faulty module: pam_kwallet5.so
+Nov 21 08:29:58 ubuntu lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "eero"
+Nov 21 08:30:15 ubuntu lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov 21 08:30:15 ubuntu lightdm: PAM adding faulty module: pam_kwallet.so
+Nov 21 08:30:15 ubuntu lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Nov 21 08:30:15 ubuntu lightdm: PAM adding faulty module: pam_kwallet5.so
+Nov 21 08:30:15 ubuntu lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "eero"
+Nov 21 08:30:56 ubuntu lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov 21 08:30:56 ubuntu lightdm: PAM adding faulty module: pam_kwallet.so
+Nov 21 08:30:56 ubuntu lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Nov 21 08:30:56 ubuntu lightdm: PAM adding faulty module: pam_kwallet5.so
+Nov 21 08:30:56 ubuntu lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "eero"
+Nov 21 08:31:23 ubuntu systemd-logind[644]: System is rebooting.
+Nov 21 08:31:55 ubuntu systemd-logind[636]: New seat seat0.
+Nov 21 08:31:55 ubuntu systemd-logind[636]: Watching system buttons on /dev/input/event1 (Power Button)
+Nov 21 08:31:55 ubuntu systemd-logind[636]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 21 08:31:55 ubuntu systemd-logind[636]: Watching system buttons on /dev/input/event4 (HP WMI hotkeys)
+Nov 21 08:32:02 ubuntu lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov 21 08:32:02 ubuntu lightdm: PAM adding faulty module: pam_kwallet.so
+Nov 21 08:32:02 ubuntu lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Nov 21 08:32:02 ubuntu lightdm: PAM adding faulty module: pam_kwallet5.so
+Nov 21 08:32:03 ubuntu lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Nov 21 08:32:03 ubuntu systemd-logind[636]: New session c1 of user lightdm.
+Nov 21 08:32:03 ubuntu systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Nov 21 08:32:06 ubuntu sshd[917]: Server listening on 0.0.0.0 port 22.
+Nov 21 08:32:06 ubuntu sshd[917]: Server listening on :: port 22.
+Nov 21 08:32:18 ubuntu lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov 21 08:32:18 ubuntu lightdm: PAM adding faulty module: pam_kwallet.so
+Nov 21 08:32:18 ubuntu lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Nov 21 08:32:18 ubuntu lightdm: PAM adding faulty module: pam_kwallet5.so
+Nov 21 08:32:18 ubuntu lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "eero"
+Nov 21 08:32:39 ubuntu lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Nov 21 08:32:39 ubuntu lightdm: PAM adding faulty module: pam_kwallet.so
+Nov 21 08:32:39 ubuntu lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Nov 21 08:32:39 ubuntu lightdm: PAM adding faulty module: pam_kwallet5.so
+Nov 21 08:32:39 ubuntu lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "eero"
+Nov 21 08:32:44 ubuntu dbus[638]: [system] Failed to activate service 'org.bluez': timed out
+Nov 21 08:35:06 ubuntu sshd[1115]: Accepted password for eero from 172.28.171.70 port 33104 ssh2
+Nov 21 08:35:06 ubuntu sshd[1115]: pam_unix(sshd:session): session opened for user eero by (uid=0)
+Nov 21 08:35:06 ubuntu systemd: pam_unix(systemd-user:session): session opened for user eero by (uid=0)
+Nov 21 08:35:06 ubuntu systemd-logind[636]: New session 1 of user eero.
+Nov 21 08:35:24 ubuntu sudo:     eero : TTY=pts/8 ; PWD=/home/eero ; USER=root ; COMMAND=/usr/bin/apt-get install xubuntu-desktop
+Nov 21 08:35:24 ubuntu sudo: pam_unix(sudo:session): session opened for user root by eero(uid=0)
+Nov 21 08:38:03 ubuntu sshd[4961]: Accepted password for eero from 172.28.171.70 port 33110 ssh2
+Nov 21 08:38:03 ubuntu sshd[4961]: pam_unix(sshd:session): session opened for user eero by (uid=0)
+Nov 21 08:38:03 ubuntu systemd-logind[636]: New session 2 of user eero.
+Nov 21 08:38:48 ubuntu sudo:     eero : TTY=pts/10 ; PWD=/home/eero ; USER=root ; COMMAND=/usr/bin/tail --lines=100 /home/eero/.bash_history /var/log/auth.log /var/log/apache2/*.log /var/log/syslog /etc/lsb-release
+Nov 21 08:38:48 ubuntu sudo: pam_unix(sudo:session): session opened for user root by eero(uid=0)
+
+==> /var/log/syslog <==
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:mask: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:caps: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:.: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:mask: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:rlimit: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:.: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:mask: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:capability: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:namespaces: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:.: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:pivot_root: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:profile: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:mount: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:.: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:mask: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:network: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:.: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:af_unix: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:af_mask: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:file: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:.: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:mask: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:domain: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:.: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:version: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:stack: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:change_profile: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:change_onexec: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:change_hatv: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:change_hat: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:policy: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:.: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:set_load: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:versions: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:.: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:v7: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:v6: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:v5: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:.features: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:.: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: message repeated 11 times: [ ureadahead:.: Ignored relative path]
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:.replace: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: message repeated 4 times: [ ureadahead:.replace: Ignored relative path]
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:.: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:crontabs: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:eno1.dhclient_new.814: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:.: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: message repeated 18 times: [ ureadahead:.: Ignored relative path]
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:eno1.dhclient: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: message repeated 2 times: [ ureadahead:eno1.dhclient: Ignored relative path]
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:tmp: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:tmp: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:tracing_on: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:events/fs/open_exec/enable: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: ureadahead:events/fs/do_sys_open/enable: Ignored relative path
+Nov 21 08:33:03 ubuntu ureadahead[258]: Counted 4 CPUs
+Nov 21 08:33:03 ubuntu systemd[1]: Stopped Read required files in advance.
+Nov 21 08:34:19 ubuntu puppet-agent[980]: Could not request certificate: Failed to open TCP connection to puppet:8140 (getaddrinfo: Name or service not known)
+Nov 21 08:35:06 ubuntu systemd[1]: Created slice User Slice of eero.
+Nov 21 08:35:06 ubuntu systemd[1]: Starting User Manager for UID 1000...
+Nov 21 08:35:06 ubuntu systemd[1]: Started Session 1 of user eero.
+Nov 21 08:35:06 ubuntu systemd[1117]: Reached target Sockets.
+Nov 21 08:35:06 ubuntu systemd[1117]: Reached target Paths.
+Nov 21 08:35:06 ubuntu systemd[1117]: Reached target Timers.
+Nov 21 08:35:06 ubuntu systemd[1117]: Reached target Basic System.
+Nov 21 08:35:06 ubuntu systemd[1117]: Reached target Default.
+Nov 21 08:35:06 ubuntu systemd[1117]: Startup finished in 36ms.
+Nov 21 08:35:06 ubuntu systemd[1]: Started User Manager for UID 1000.
+Nov 21 08:35:56 ubuntu dhclient[861]: DHCPREQUEST of 172.28.171.4 on eno1 to 172.28.171.70 port 67 (xid=0x1544483b)
+Nov 21 08:35:56 ubuntu dhclient[861]: DHCPACK of 172.28.171.4 from 172.28.171.70
+Nov 21 08:35:56 ubuntu dhclient[861]: bound to 172.28.171.4 -- renewal in 270 seconds.
+Nov 21 08:35:59 ubuntu systemd[1]: Reloading.
+Nov 21 08:36:19 ubuntu puppet-agent[980]: Could not request certificate: Failed to open TCP connection to puppet:8140 (getaddrinfo: Name or service not known)
+Nov 21 08:37:06 ubuntu systemd[1]: Reloading.
+Nov 21 08:37:28 ubuntu avahi-daemon[657]: Files changed, reloading.
+Nov 21 08:37:28 ubuntu avahi-daemon[657]: No service file found in /etc/avahi/services.
+Nov 21 08:37:28 ubuntu avahi-daemon[657]: Files changed, reloading.
+Nov 21 08:37:28 ubuntu avahi-daemon[657]: No service file found in /etc/avahi/services.
+Nov 21 08:37:32 ubuntu dbus-daemon[638]: Unknown username "whoopsie" in message bus configuration file
+Nov 21 08:37:32 ubuntu dbus[638]: [system] Reloaded configuration
+Nov 21 08:37:32 ubuntu dbus-daemon[638]: Unknown username "whoopsie" in message bus configuration file
+Nov 21 08:37:32 ubuntu dbus[638]: [system] Reloaded configuration
+Nov 21 08:37:33 ubuntu dbus-daemon[638]: Unknown username "whoopsie" in message bus configuration file
+Nov 21 08:37:33 ubuntu dbus[638]: [system] Reloaded configuration
+Nov 21 08:37:33 ubuntu dbus-daemon[638]: Unknown username "whoopsie" in message bus configuration file
+Nov 21 08:37:33 ubuntu dbus[638]: [system] Reloaded configuration
+Nov 21 08:37:33 ubuntu dbus-daemon[638]: Unknown username "whoopsie" in message bus configuration file
+Nov 21 08:37:33 ubuntu dbus[638]: [system] Reloaded configuration
+Nov 21 08:38:03 ubuntu systemd[1]: Started Session 2 of user eero.
+Nov 21 08:38:19 ubuntu puppet-agent[980]: Could not request certificate: Failed to open TCP connection to puppet:8140 (getaddrinfo: Name or service not known)
+Nov 21 08:38:35 ubuntu dbus-daemon[638]: Unknown username "whoopsie" in message bus configuration file
+Nov 21 08:38:35 ubuntu dbus[638]: [system] Reloaded configuration
+Nov 21 08:38:35 ubuntu dbus-daemon[638]: Unknown username "whoopsie" in message bus configuration file
+Nov 21 08:38:35 ubuntu dbus[638]: [system] Reloaded configuration
+Nov 21 08:38:35 ubuntu dbus-daemon[638]: Unknown username "whoopsie" in message bus configuration file
+Nov 21 08:38:35 ubuntu dbus-daemon[638]: Unknown username "whoopsie" in message bus configuration file
+Nov 21 08:38:35 ubuntu dbus[638]: [system] Reloaded configuration
+Nov 21 08:38:35 ubuntu dbus[638]: [system] Reloaded configuration
+Nov 21 08:38:36 ubuntu dbus-daemon[638]: Unknown username "whoopsie" in message bus configuration file
+Nov 21 08:38:36 ubuntu dbus[638]: [system] Reloaded configuration
+
+==> /etc/lsb-release <==
+DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=16.04
+DISTRIB_CODENAME=xenial
+DISTRIB_DESCRIPTION="Ubuntu 16.04.1 LTS"
+
+
