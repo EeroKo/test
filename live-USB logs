@@ -1,0 +1,211 @@
+==> /var/log/auth.log <==
+Nov 21 11:25:41 xubuntu useradd[7716]: new user: name=tftp, UID=122, GID=130, home=/var/lib/tftpboot, shell=/bin/false
+Nov 21 11:25:41 xubuntu usermod[7721]: change user 'tftp' password
+Nov 21 11:25:41 xubuntu chage[7726]: changed password expiry for tftp
+Nov 21 11:25:41 xubuntu chfn[7729]: changed user 'tftp' information
+Nov 21 11:25:42 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 21 11:30:33 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/var/lib ; USER=root ; COMMAND=/bin/mv /home/xubuntu/Downloads/netboot.tar.gz /var/lib
+Nov 21 11:30:33 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 21 11:30:33 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 21 11:30:42 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/var/lib ; USER=root ; COMMAND=/bin/mv /home/xubuntu/Downloads/netboot.tar.gz /var/lib
+Nov 21 11:30:42 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 21 11:30:42 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 21 11:31:18 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/var/lib ; USER=root ; COMMAND=/bin/mv /home/xubuntu/Downloads/netboot.tar.gz /var/lib/tftpboot
+Nov 21 11:31:18 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 21 11:31:18 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 21 11:32:07 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/var/lib ; USER=root ; COMMAND=/bin/mv /home/xubuntu/Downloads/netboot.tar.gz /var/lib/tftpboot
+Nov 21 11:32:07 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 21 11:32:07 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 21 11:32:56 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=/bin/tar -xvf netboot.tar.gz
+Nov 21 11:32:56 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 21 11:32:56 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 21 11:33:34 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=/bin/rm netboot.tar.gz
+Nov 21 11:33:34 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 21 11:33:34 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 21 11:34:13 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=sudoedit /var/lib/tftpboot/ubuntu-installer/amd64/boot-screens/syslinux.cfg
+Nov 21 11:34:13 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 21 11:37:49 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Nov 21 11:39:42 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=sudoedit /var/lib/tftpboot/ubuntu-installer/amd64/preseed.cfg
+Nov 21 11:39:42 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 21 11:41:00 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Nov 21 11:42:05 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=/usr/sbin/ufw status
+Nov 21 11:42:05 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 21 11:42:05 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 21 11:43:11 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=/usr/sbin/service isc-dhcp-server restart
+Nov 21 11:43:11 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 21 11:43:11 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 21 11:46:17 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=sudoedit /etc/dhcp/dhcpd.conf
+Nov 21 11:46:17 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 21 11:47:21 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Nov 21 11:47:35 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=/usr/sbin/service isc-dhcp-server restart
+Nov 21 11:47:35 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 21 11:47:35 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 21 11:48:18 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=sudoedit /etc/dhcp/dhcpd.conf
+Nov 21 11:48:18 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 21 11:50:31 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Nov 21 11:50:44 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=/usr/sbin/service isc-dhcp-server restart
+Nov 21 11:50:44 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 21 11:50:44 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 21 11:51:36 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=sudoedit /etc/dhcp/dhcpd.conf
+Nov 21 11:51:36 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 21 11:51:56 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Nov 21 11:51:58 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=/usr/sbin/service isc-dhcp-server restart
+Nov 21 11:51:58 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 21 11:51:58 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 21 11:52:44 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=sudoedit /etc/dhcp/dhcpd.conf
+Nov 21 11:52:44 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 21 11:56:09 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Nov 21 11:56:11 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/var/lib/tftpboot ; USER=root ; COMMAND=/usr/sbin/service isc-dhcp-server restart
+Nov 21 11:56:11 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 21 11:56:11 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 21 12:09:30 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/var/lib/tftpboot/ubuntu-installer/amd64/boot-screens ; USER=root ; COMMAND=sudoedit syslinux.cfg
+Nov 21 12:09:30 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 21 12:09:49 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Nov 21 12:10:16 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/var/lib/tftpboot/ubuntu-installer/amd64 ; USER=root ; COMMAND=sudoedit preseed.cfg
+Nov 21 12:10:16 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 21 12:17:01 xubuntu CRON[8138]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov 21 12:17:01 xubuntu CRON[8138]: pam_unix(cron:session): session closed for user root
+Nov 21 12:23:58 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Nov 21 12:30:45 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/home/xubuntu ; USER=root ; COMMAND=/usr/sbin/service isc-dhcp-server restart
+Nov 21 12:30:45 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 21 12:30:45 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 21 12:38:16 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/home/xubuntu ; USER=root ; COMMAND=/bin/grep 78:AC:C0:C1:1B:61
+Nov 21 12:38:16 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 21 12:38:24 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 21 12:38:29 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/home/xubuntu ; USER=root ; COMMAND=/bin/grep 78:AC:C0:C1:1B:61
+Nov 21 12:38:29 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 21 12:39:23 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 21 12:43:24 xubuntu sudo:  xubuntu : TTY=pts/6 ; PWD=/home/xubuntu ; USER=root ; COMMAND=/usr/bin/apt-get install puppetmaster
+Nov 21 12:43:24 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 21 12:51:33 xubuntu groupadd[9637]: group added to /etc/group: name=puppet, GID=131
+Nov 21 12:51:33 xubuntu groupadd[9637]: group added to /etc/gshadow: name=puppet
+Nov 21 12:51:33 xubuntu groupadd[9637]: new group: name=puppet, GID=131
+Nov 21 12:51:33 xubuntu useradd[9641]: new user: name=puppet, UID=123, GID=131, home=/var/lib/puppet, shell=/bin/false
+Nov 21 12:51:33 xubuntu usermod[9646]: change user 'puppet' password
+Nov 21 12:51:33 xubuntu chage[9651]: changed password expiry for puppet
+Nov 21 12:51:33 xubuntu chfn[9654]: changed user 'puppet' information
+Nov 21 12:51:36 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Nov 21 12:55:04 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/home/xubuntu ; USER=root ; COMMAND=sudoedit /var/lib/tftpboot/ubuntu-installer/amd64/boot-screens/syslinux.cfg
+Nov 21 12:55:04 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 21 12:55:53 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Nov 21 12:56:01 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/home/xubuntu ; USER=root ; COMMAND=sudoedit /var/lib/tftpboot/ubuntu-installer/amd64/preseed.cfg
+Nov 21 12:56:01 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 21 12:56:50 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Nov 21 12:59:10 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/home/xubuntu ; USER=root ; COMMAND=sudoedit /etc/dhcp/dhcpd.conf
+Nov 21 12:59:10 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 21 13:01:03 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Nov 21 13:01:24 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/etc/default ; USER=root ; COMMAND=sudoedit isc-dhcp-server
+Nov 21 13:01:24 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Nov 21 13:02:56 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Nov 21 13:04:33 xubuntu sudo:  xubuntu : TTY=pts/1 ; PWD=/home/xubuntu ; USER=root ; COMMAND=/usr/bin/tail --lines=100 /home/*/.bash_history /var/log/auth.log /var/log/apache2/*.log /var/log/syslog /etc/lsb-release
+Nov 21 13:04:33 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+
+==> /var/log/syslog <==
+Nov 21 12:51:21 xubuntu dhcpd[8158]: DHCPACK to 172.28.171.232 (e8:39:35:3e:14:7c) via eno1
+Nov 21 12:51:32 xubuntu dhcpd[8158]: DHCPDISCOVER from 78:ac:c0:ba:7b:63 via eno1: network 172.28.0.0/16: no free leases
+Nov 21 12:51:33 xubuntu systemd[1]: Reloading.
+Nov 21 12:51:33 xubuntu systemd[1]: apt-daily.timer: Adding 6h 19min 36.243894s random time.
+Nov 21 12:51:33 xubuntu systemd[1]: snapd.refresh.timer: Adding 3h 15min 41.338254s random time.
+Nov 21 12:51:33 xubuntu systemd[1]: Started ACPI event daemon.
+Nov 21 12:51:33 xubuntu systemd[1]: Started CUPS Scheduler.
+Nov 21 12:51:33 xubuntu systemd[1]: Reloading.
+Nov 21 12:51:33 xubuntu systemd[1]: apt-daily.timer: Adding 6h 7min 24.607414s random time.
+Nov 21 12:51:33 xubuntu systemd[1]: snapd.refresh.timer: Adding 49min 7.060559s random time.
+Nov 21 12:51:33 xubuntu systemd[1]: Started ACPI event daemon.
+Nov 21 12:51:33 xubuntu systemd[1]: Started CUPS Scheduler.
+Nov 21 12:51:33 xubuntu systemd[1]: Reloading.
+Nov 21 12:51:33 xubuntu systemd[1]: apt-daily.timer: Adding 16min 58.469776s random time.
+Nov 21 12:51:33 xubuntu systemd[1]: snapd.refresh.timer: Adding 1h 10min 46.407938s random time.
+Nov 21 12:51:33 xubuntu systemd[1]: Started ACPI event daemon.
+Nov 21 12:51:33 xubuntu systemd[1]: Started CUPS Scheduler.
+Nov 21 12:51:33 xubuntu systemd[1]: Starting LSB: puppet queue...
+Nov 21 12:51:33 xubuntu puppetqd[9720]:  * Starting puppet queue
+Nov 21 12:51:33 xubuntu puppetqd[9720]:    ...done.
+Nov 21 12:51:33 xubuntu systemd[1]: Started LSB: puppet queue.
+Nov 21 12:51:33 xubuntu systemd[1]: Reloading.
+Nov 21 12:51:33 xubuntu systemd[1]: apt-daily.timer: Adding 8h 59min 17.029480s random time.
+Nov 21 12:51:33 xubuntu systemd[1]: snapd.refresh.timer: Adding 1h 53min 5.110214s random time.
+Nov 21 12:51:33 xubuntu systemd[1]: Started ACPI event daemon.
+Nov 21 12:51:33 xubuntu systemd[1]: Started CUPS Scheduler.
+Nov 21 12:51:33 xubuntu systemd[1]: Reloading.
+Nov 21 12:51:33 xubuntu systemd[1]: apt-daily.timer: Adding 10h 29min 29.639917s random time.
+Nov 21 12:51:33 xubuntu systemd[1]: snapd.refresh.timer: Adding 1h 29min 57.135661s random time.
+Nov 21 12:51:33 xubuntu systemd[1]: Started ACPI event daemon.
+Nov 21 12:51:33 xubuntu systemd[1]: Started CUPS Scheduler.
+Nov 21 12:51:33 xubuntu systemd[1]: Reloading.
+Nov 21 12:51:33 xubuntu systemd[1]: apt-daily.timer: Adding 11h 21min 7.823535s random time.
+Nov 21 12:51:33 xubuntu systemd[1]: snapd.refresh.timer: Adding 4h 2min 59.780414s random time.
+Nov 21 12:51:33 xubuntu systemd[1]: Started ACPI event daemon.
+Nov 21 12:51:33 xubuntu systemd[1]: Started CUPS Scheduler.
+Nov 21 12:51:33 xubuntu systemd[1]: Starting Puppet master...
+Nov 21 12:51:34 xubuntu dhcpd[8158]: DHCPREQUEST for 172.28.171.10 (172.28.171.81) from 78:ac:c0:ba:7b:63 via eno1: unknown lease 172.28.171.10.
+Nov 21 12:51:35 xubuntu puppet-master[9796]: Signed certificate request for ca
+Nov 21 12:51:36 xubuntu puppet-master[9796]: xubuntu.tielab.haaga-helia.fi has a waiting certificate request
+Nov 21 12:51:36 xubuntu puppet-master[9796]: Signed certificate request for xubuntu.tielab.haaga-helia.fi
+Nov 21 12:51:36 xubuntu puppet-master[9796]: Removing file Puppet::SSL::CertificateRequest xubuntu.tielab.haaga-helia.fi at '/var/lib/puppet/ssl/ca/requests/xubuntu.tielab.haaga-helia.fi.pem'
+Nov 21 12:51:36 xubuntu puppet-master[9796]: Removing file Puppet::SSL::CertificateRequest xubuntu.tielab.haaga-helia.fi at '/var/lib/puppet/ssl/certificate_requests/xubuntu.tielab.haaga-helia.fi.pem'
+Nov 21 12:51:36 xubuntu puppet-master[9808]: Reopening log files
+Nov 21 12:51:36 xubuntu puppet-master[9808]: Starting Puppet master version 3.8.5
+Nov 21 12:51:36 xubuntu systemd[1]: Started Puppet master.
+Nov 21 12:51:36 xubuntu systemd[1]: Reloading.
+Nov 21 12:51:36 xubuntu systemd[1]: apt-daily.timer: Adding 4min 57.645854s random time.
+Nov 21 12:51:36 xubuntu systemd[1]: snapd.refresh.timer: Adding 1h 13min 38.488524s random time.
+Nov 21 12:51:36 xubuntu systemd[1]: Started ACPI event daemon.
+Nov 21 12:51:36 xubuntu systemd[1]: Started CUPS Scheduler.
+Nov 21 12:51:57 xubuntu dhcpd[8158]: DHCPDISCOVER from 78:ac:c0:ba:7b:63 via eno1: network 172.28.0.0/16: no free leases
+Nov 21 12:51:57 xubuntu dhcpd[8158]: DHCPREQUEST for 172.28.172.158 (172.28.170.202) from 78:ac:c0:ba:7b:63 via eno1: unknown lease 172.28.172.158.
+Nov 21 12:52:17 xubuntu dhcpd[8158]: DHCPDISCOVER from 68:b5:99:e8:58:7c via eno1: network 172.28.0.0/16: no free leases
+Nov 21 12:52:18 xubuntu dhcpd[8158]: DHCPREQUEST for 172.28.171.186 (172.28.170.201) from 68:b5:99:e8:58:7c via eno1: unknown lease 172.28.171.186.
+Nov 21 12:52:45 xubuntu dhcpd[8158]: DHCPDISCOVER from 2c:27:d7:19:01:43 via eno1: network 172.28.0.0/16: no free leases
+Nov 21 12:52:47 xubuntu dhcpd[8158]: DHCPREQUEST for 172.28.172.64 (172.28.170.202) from 2c:27:d7:19:01:43 via eno1: unknown lease 172.28.172.64.
+Nov 21 12:53:32 xubuntu dhcpd[8158]: DHCPDISCOVER from 78:ac:c0:ba:7c:f7 via eno1: network 172.28.0.0/16: no free leases
+Nov 21 12:53:32 xubuntu dhcpd[8158]: DHCPREQUEST for 172.28.1.3 (172.28.172.211) from 78:ac:c0:ba:7c:f7 via eno1: unknown lease 172.28.1.3.
+Nov 21 12:54:27 xubuntu dhcpd[8158]: DHCPDISCOVER from 2c:27:d7:19:01:43 via eno1: network 172.28.0.0/16: no free leases
+Nov 21 12:54:28 xubuntu dhcpd[8158]: DHCPREQUEST for 172.28.172.71 (172.28.170.202) from 2c:27:d7:19:01:43 via eno1: unknown lease 172.28.172.71.
+Nov 21 12:55:35 xubuntu dhcpd[8158]: DHCPINFORM from 172.28.172.80 via eno1
+Nov 21 12:55:35 xubuntu dhcpd[8158]: DHCPACK to 172.28.172.80 (e8:39:35:3e:95:33) via eno1
+Nov 21 12:56:33 xubuntu dhcpd[8158]: DHCPDISCOVER from 78:ac:c0:c1:1b:61 via eno1
+Nov 21 12:56:33 xubuntu dhcpd[8158]: DHCPOFFER on 172.28.171.4 to 78:ac:c0:c1:1b:61 via eno1
+Nov 21 12:56:33 xubuntu dhcpd[8158]: DHCPREQUEST for 172.28.171.4 (172.28.171.70) from 78:ac:c0:c1:1b:61 via eno1
+Nov 21 12:56:33 xubuntu dhcpd[8158]: DHCPACK on 172.28.171.4 to 78:ac:c0:c1:1b:61 via eno1
+Nov 21 12:56:42 xubuntu dhcpd[8158]: DHCPINFORM from 172.28.171.182 via eno1
+Nov 21 12:56:42 xubuntu dhcpd[8158]: DHCPACK to 172.28.171.182 (e8:39:35:3e:95:45) via eno1
+Nov 21 12:58:06 xubuntu dhcpd[8158]: DHCPREQUEST for 172.28.1.176 from e8:39:35:3f:4f:1a via eno1: unknown lease 172.28.1.176.
+Nov 21 12:58:14 xubuntu dhcpd[8158]: DHCPREQUEST for 172.28.1.176 from e8:39:35:3f:4f:1a via eno1: unknown lease 172.28.1.176.
+Nov 21 12:58:47 xubuntu dhcpd[8158]: DHCPDISCOVER from 78:ac:c0:ba:7c:f7 via eno1: network 172.28.0.0/16: no free leases
+Nov 21 12:58:49 xubuntu dhcpd[8158]: DHCPREQUEST for 172.28.1.3 (172.28.172.211) from 78:ac:c0:ba:7c:f7 via eno1: unknown lease 172.28.1.3.
+Nov 21 12:59:07 xubuntu dhcpd[8158]: DHCPREQUEST for 172.28.172.39 from 78:ac:c0:c1:09:b6 via eno1: unknown lease 172.28.172.39.
+Nov 21 12:59:11 xubuntu dhcpd[8158]: DHCPDISCOVER from 78:ac:c0:ba:7c:f7 via eno1: network 172.28.0.0/16: no free leases
+Nov 21 12:59:11 xubuntu dhcpd[8158]: DHCPREQUEST for 172.28.172.175 (172.28.170.202) from 78:ac:c0:ba:7c:f7 via eno1: unknown lease 172.28.172.175.
+Nov 21 12:59:17 xubuntu dhcpd[8158]: DHCPDISCOVER from 78:ac:c0:ba:7b:63 via eno1: network 172.28.0.0/16: no free leases
+Nov 21 12:59:19 xubuntu dhcpd[8158]: DHCPREQUEST for 172.28.171.10 (172.28.171.81) from 78:ac:c0:ba:7b:63 via eno1: unknown lease 172.28.171.10.
+Nov 21 12:59:19 xubuntu dhcpd[8158]: DHCPINFORM from 172.28.171.37 via eno1
+Nov 21 12:59:19 xubuntu dhcpd[8158]: DHCPACK to 172.28.171.37 (2c:27:d7:27:2d:80) via eno1
+Nov 21 12:59:42 xubuntu dhcpd[8158]: DHCPDISCOVER from 78:ac:c0:ba:7b:63 via eno1: network 172.28.0.0/16: no free leases
+Nov 21 12:59:42 xubuntu dhcpd[8158]: DHCPREQUEST for 172.28.172.158 (172.28.170.202) from 78:ac:c0:ba:7b:63 via eno1: unknown lease 172.28.172.158.
+Nov 21 13:00:04 xubuntu dhcpd[8158]: DHCPDISCOVER from e8:39:35:3f:4f:1a via eno1: network 172.28.0.0/16: no free leases
+Nov 21 13:00:05 xubuntu dhcpd[8158]: DHCPREQUEST for 172.28.171.62 (172.28.170.201) from e8:39:35:3f:4f:1a via eno1: unknown lease 172.28.171.62.
+Nov 21 13:00:29 xubuntu dhcpd[8158]: DHCPINFORM from 172.28.171.37 via eno1
+Nov 21 13:00:29 xubuntu dhcpd[8158]: DHCPACK to 172.28.171.37 (2c:27:d7:27:2d:80) via eno1
+Nov 21 13:00:43 xubuntu dhcpd[8158]: DHCPINFORM from 172.28.171.62 via eno1
+Nov 21 13:00:43 xubuntu dhcpd[8158]: DHCPACK to 172.28.171.62 (e8:39:35:3f:4f:1a) via eno1
+Nov 21 13:01:17 xubuntu dhcpd[8158]: DHCPREQUEST for 172.28.171.4 from 78:ac:c0:c1:1b:61 via eno1
+Nov 21 13:01:17 xubuntu dhcpd[8158]: DHCPACK on 172.28.171.4 to 78:ac:c0:c1:1b:61 via eno1
+Nov 21 13:01:23 xubuntu dhcpd[8158]: DHCPINFORM from 172.28.171.232 via eno1
+Nov 21 13:01:23 xubuntu dhcpd[8158]: DHCPACK to 172.28.171.232 (e8:39:35:3e:14:7c) via eno1
+Nov 21 13:01:24 xubuntu dhcpd[8158]: DHCPDISCOVER from 78:ac:c0:c1:0a:96 via eno1: network 172.28.0.0/16: no free leases
+Nov 21 13:01:25 xubuntu dhcpd[8158]: DHCPREQUEST for 172.28.172.60 (172.28.170.202) from 78:ac:c0:c1:0a:96 via eno1: unknown lease 172.28.172.60.
+Nov 21 13:01:51 xubuntu dhcpd[8158]: DHCPINFORM from 172.28.171.62 via eno1
+Nov 21 13:01:51 xubuntu dhcpd[8158]: DHCPACK to 172.28.171.62 (e8:39:35:3f:4f:1a) via eno1
+Nov 21 13:02:05 xubuntu dhcpd[8158]: DHCPINFORM from 172.28.172.60 via eno1
+Nov 21 13:02:05 xubuntu dhcpd[8158]: DHCPACK to 172.28.172.60 (78:ac:c0:c1:0a:96) via eno1
+Nov 21 13:03:15 xubuntu dhcpd[8158]: DHCPINFORM from 172.28.172.60 via eno1
+Nov 21 13:03:15 xubuntu dhcpd[8158]: DHCPACK to 172.28.172.60 (78:ac:c0:c1:0a:96) via eno1
+
+==> /etc/lsb-release <==
+DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=16.04
+DISTRIB_CODENAME=xenial
+DISTRIB_DESCRIPTION="Ubuntu 16.04.1 LTS"
+
+
